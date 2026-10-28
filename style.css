@@ -1,0 +1,52 @@
+body {
+    font-family: Arial;
+    background-color: #eaf0f8;
+}
+
+.container {
+    width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+h1, h2 {
+    color: #244776;
+}
+
+label {
+    display: block;
+    margin-top: 12px;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    margin-top: 12px;
+    padding: 8px 15px;
+    background-color: #315da8;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#message {
+    color: red;
+}
+
+.task {
+    background-color: #edf2fa;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+pre {
+    white-space: pre-wrap;
+    overflow-wrap: anywhere;
+}
